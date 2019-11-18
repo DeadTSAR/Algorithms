@@ -1,4 +1,4 @@
-#define length 100
+#define length 10
 //// add dinamic array
 //int randomArray(int* arr, int lenD);
 

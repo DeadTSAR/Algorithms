@@ -190,8 +190,11 @@ void selectionSort(int arr[], int lenD)
 {
 	int min = 0;
 	int tmp = 0;
+	int count;
 	for (int i = 0; i < lenD; i++) {
 		min = i;
+		count = i;
+		std::cout << " # " << ++count << " = " ;
 		for (int k = i; k < lenD; k++) {
 			if (arr[min] > arr[k]) {
 				min = k;
@@ -200,8 +203,9 @@ void selectionSort(int arr[], int lenD)
 		tmp = arr[i];
 		arr[i] = arr[min];
 		arr[min] = tmp;
-	}
-	//printMass(arr, lenD);
+		std::cout << " [ " << arr[min] << " ] " << std::endl;
+	} std::cout << std::endl;
+	
 }
 
 //пузырьковая сортировка (bubble sort)
@@ -216,8 +220,9 @@ void bubbleSort(int arr[], int lenD)
 				tmp = arr[j];
 				arr[j] = arr[j - 1];
 				arr[j - 1] = tmp;
+				std::cout << " " << arr[j] << "\t" ;
 			}
-		}
+		}std::cout << "\n";
 	}
 }
 
@@ -233,6 +238,7 @@ void insertionSort(int arr[], int lenD)
 			arr[i + 1] = arr[i];
 			i = i - 1;
 			arr[i + 1] = key;
+			
 		}
 	}
 }
