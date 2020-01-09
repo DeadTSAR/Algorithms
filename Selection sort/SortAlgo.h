@@ -5,23 +5,23 @@
 //start and continue 
 void reStart();
 
-//Сортировка выбором (Selection sort)
+//РЎРѕСЂС‚РёСЂРѕРІРєР° РІС‹Р±РѕСЂРѕРј (Selection sort)
 void selectionSort(int data[], int lenD);
 
-//распечатка массива
+//СЂР°СЃРїРµС‡Р°С‚РєР° РјР°СЃСЃРёРІР°
 void printMass(int data[], int lenD);
 
-//Пузырьковая сортировка (Bubble sort)
+//РџСѓР·С‹СЂСЊРєРѕРІР°СЏ СЃРѕСЂС‚РёСЂРѕРІРєР° (Bubble sort)
 void bubbleSort(int data[], int lenD);
 
-//Сортировка вставками(Insertion sort)
+//РЎРѕСЂС‚РёСЂРѕРІРєР°  РІСЃС‚Р°РІРєР°РјРё(Insertion sort)
 void insertionSort(int data[], int lenD);
 
-//Сортировка слиянием(Merge sort)
+РЎРѕСЂС‚РёСЂРѕРІРєР° СЃР»РёВ¤РЅРёРµРј(Merge sort)
 void mergeSort(int data[], int lenD);
 void merge(int merged[], int lenD, int L[], int lenL, int R[], int lenR);
 
-//Быстрая сортировка (Quick sort)
+//Р‘С‹СЃС‚СЂР°СЏ СЃРѕСЂС‚РёСЂРѕРІРєР° (Quick sort)
 void quickSort(int* data, int const len);
 
 //sort menu Algorithms
