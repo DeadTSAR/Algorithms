@@ -15,27 +15,27 @@ void sortMenu(int switchSelect)
 	case 1:
 		std::cout << "You select:\n>> Selection sort <<" << std::endl;
 		std::cout << "choise number " << std::endl;
-		std::cout << "от : "; std::cin >> Y;
+		std::cout << "РѕС‚ : "; std::cin >> Y;
 		std::cout << std::endl;
-		std::cout << "до : "; std::cin >> X;
+		std::cout << "РґРѕ : "; std::cin >> X;
 		std::cout << std::endl;
 
 		for (int i = 0; i < length; i++) {
 			arr[i] = rand() % X + Y;
 		}
 
-		std::cout << "...создаем массив заполненный случайными числами..." << std::endl;
+		std::cout << "...СЃРѕР·РґР°РµРј РјР°СЃСЃРёРІ Р·Р°РїРѕР»РЅРµРЅРЅС‹Р№ СЃР»СѓС‡Р°Р№РЅС‹РјРё С‡РёСЃР»Р°РјРё..." << std::endl;
 		printMass(arr, length);
 
 		std::cout << std::endl;
-		std::cout << "сортировка...." << std::endl;
+		std::cout << "СЃРѕСЂС‚РёСЂРѕРІРєР°...." << std::endl;
 
 		selectionSort(arr, length);
-		std::cout << "сортировка завершена...." << std::endl;
+		std::cout << "СЃРѕСЂС‚РёСЂРѕРІРєР° Р·Р°РІРµСЂС€РµРЅР°...." << std::endl;
 		printMass(arr, length);
 
 		std::cout << std::endl;
-		std::cout << "....готов!  выход (ноль или любая буква)...спасибо что выбрали нашу сортировку!" << std::endl;
+		std::cout << "....РіРѕС‚РѕРІ!  РІС‹С…РѕРґ (РЅРѕР»СЊ РёР»Рё Р»СЋР±Р°СЏ Р±СѓРєРІР°)...СЃРїР°СЃРёР±Рѕ С‡С‚Рѕ РІС‹Р±СЂР°Р»Рё РЅР°С€Сѓ СЃРѕСЂС‚РёСЂРѕРІРєСѓ!" << std::endl;
 		reStart();
 		std::cin >> switchSelect;
 		sortMenu(switchSelect);
@@ -44,27 +44,27 @@ void sortMenu(int switchSelect)
 	case 2:
 		std::cout << "You select:\n>> Bubble sort <<" << std::endl;
 		std::cout << "choise number " << std::endl;
-		std::cout << "от : "; std::cin >> Y;
+		std::cout << "РѕС‚ : "; std::cin >> Y;
 		std::cout << std::endl;
-		std::cout << "до : "; std::cin >> X;
+		std::cout << "РґРѕ : "; std::cin >> X;
 		std::cout << std::endl;
 
 		for (int i = 0; i < length; i++) {
 			arr[i] = rand() % X + Y;
 		}
 
-		std::cout << "...создаем массив заполненный случайными числами..." << std::endl;
+		std::cout << "...СЃРѕР·РґР°РµРј РјР°СЃСЃРёРІ Р·Р°РїРѕР»РЅРµРЅРЅС‹Р№ СЃР»СѓС‡Р°Р№РЅС‹РјРё С‡РёСЃР»Р°РјРё..." << std::endl;
 		printMass(arr, length);
 
 		std::cout << std::endl;
-		std::cout << "сортировка...." << std::endl;
+		std::cout << "СЃРѕСЂС‚РёСЂРѕРІРєР°...." << std::endl;
 
 		bubbleSort(arr, length);
-		std::cout << "сортировка завершена...." << std::endl;
+		std::cout << "СЃРѕСЂС‚РёСЂРѕРІРєР° Р·Р°РІРµСЂС€РµРЅР°...." << std::endl;
 		printMass(arr, length);
 
 		std::cout << std::endl;
-		std::cout << "....готов!  выход (ноль или любая буква)...спасибо что выбрали нашу сортировку!" << std::endl;
+		std::cout << "....РіРѕС‚РѕРІ!  РІС‹С…РѕРґ (РЅРѕР»СЊ РёР»Рё Р»СЋР±Р°СЏ Р±СѓРєРІР°)...СЃРїР°СЃРёР±Рѕ С‡С‚Рѕ РІС‹Р±СЂР°Р»Рё РЅР°С€Сѓ СЃРѕСЂС‚РёСЂРѕРІРєСѓ!" << std::endl;
 		reStart();
 		std::cin >> switchSelect;
 		sortMenu(switchSelect);
@@ -72,27 +72,27 @@ void sortMenu(int switchSelect)
 
 	case 3: std::cout << "You select:\n>> insertion Sort <<" << std::endl;
 		std::cout << "choise number " << std::endl;
-		std::cout << "от : "; std::cin >> Y;
+		std::cout << "РѕС‚ : "; std::cin >> Y;
 		std::cout << std::endl;
-		std::cout << "до : "; std::cin >> X;
+		std::cout << "РґРѕ : "; std::cin >> X;
 		std::cout << std::endl;
 
 		for (int i = 0; i < length; i++) {
 			arr[i] = rand() % X + Y;
 		}
 
-		std::cout << "...создаем массив заполненный случайными числами..." << std::endl;
+		std::cout << "...СЃРѕР·РґР°РµРј РјР°СЃСЃРёРІ Р·Р°РїРѕР»РЅРµРЅРЅС‹Р№ СЃР»СѓС‡Р°Р№РЅС‹РјРё С‡РёСЃР»Р°РјРё..." << std::endl;
 		printMass(arr, length);
 
 		std::cout << std::endl;
-		std::cout << "сортировка...." << std::endl;
+		std::cout << "СЃРѕСЂС‚РёСЂРѕРІРєР°...." << std::endl;
 
 		insertionSort(arr, length);
-		std::cout << "сортировка завершена...." << std::endl;
+		std::cout << "СЃРѕСЂС‚РёСЂРѕРІРєР° Р·Р°РІРµСЂС€РµРЅР°...." << std::endl;
 		printMass(arr, length);
 
 		std::cout << std::endl;
-		std::cout << "....готов!  выход (ноль или любая буква)...спасибо что выбрали нашу сортировку!" << std::endl;
+		std::cout << "....РіРѕС‚РѕРІ!  РІС‹С…РѕРґ (РЅРѕР»СЊ РёР»Рё Р»СЋР±Р°СЏ Р±СѓРєРІР°)...СЃРїР°СЃРёР±Рѕ С‡С‚Рѕ РІС‹Р±СЂР°Р»Рё РЅР°С€Сѓ СЃРѕСЂС‚РёСЂРѕРІРєСѓ!" << std::endl;
 		reStart();
 		std::cin >> switchSelect;
 		sortMenu(switchSelect);
@@ -100,27 +100,27 @@ void sortMenu(int switchSelect)
 
 	case 4: std::cout << "You select:\n>> merge Sort <<" << std::endl;
 		std::cout << "choise number " << std::endl;
-		std::cout << "от : "; std::cin >> Y;
+		std::cout << "РѕС‚ : "; std::cin >> Y;
 		std::cout << std::endl;
-		std::cout << "до : "; std::cin >> X;
+		std::cout << "РґРѕ : "; std::cin >> X;
 		std::cout << std::endl;
 
 		for (int i = 0; i < length; i++) {
 			arr[i] = rand() % X + Y;
 		}
 
-		std::cout << "...создаем массив заполненный случайными числами..." << std::endl;
+		std::cout << "...СЃРѕР·РґР°РµРј РјР°СЃСЃРёРІ Р·Р°РїРѕР»РЅРµРЅРЅС‹Р№ СЃР»СѓС‡Р°Р№РЅС‹РјРё С‡РёСЃР»Р°РјРё..." << std::endl;
 		printMass(arr, length);
 
 		std::cout << std::endl;
-		std::cout << "сортировка...." << std::endl;
+		std::cout << "СЃРѕСЂС‚РёСЂРѕРІРєР°...." << std::endl;
 
 		mergeSort(arr, length);
-		std::cout << "сортировка завершена...." << std::endl;
+		std::cout << "СЃРѕСЂС‚РёСЂРѕРІРєР° Р·Р°РІРµСЂС€РµРЅР°...." << std::endl;
 		printMass(arr, length);
 
 		std::cout << std::endl;
-		std::cout << "....готов!  выход (ноль или любая буква)...спасибо что выбрали нашу сортировку!" << std::endl;
+		std::cout << "....РіРѕС‚РѕРІ!  РІС‹С…РѕРґ (РЅРѕР»СЊ РёР»Рё Р»СЋР±Р°СЏ Р±СѓРєРІР°)...СЃРїР°СЃРёР±Рѕ С‡С‚Рѕ РІС‹Р±СЂР°Р»Рё РЅР°С€Сѓ СЃРѕСЂС‚РёСЂРѕРІРєСѓ!" << std::endl;
 		reStart();
 		std::cin >> switchSelect;
 		sortMenu(switchSelect);
@@ -128,27 +128,27 @@ void sortMenu(int switchSelect)
 
 	case 5:  std::cout << "You select:\n>> quick Sort <<" << std::endl;
 		std::cout << "choise number " << std::endl;
-		std::cout << "от : "; std::cin >> Y;
+		std::cout << "РѕС‚ : "; std::cin >> Y;
 		std::cout << std::endl;
-		std::cout << "до : "; std::cin >> X;
+		std::cout << "РґРѕ : "; std::cin >> X;
 		std::cout << std::endl;
 
 		for (int i = 0; i < length; i++) {
 			arr[i] = rand() % X + Y;
 		}
 
-		std::cout << "...создаем массив заполненный случайными числами..." << std::endl;
+		std::cout << "...СЃРѕР·РґР°РµРј РјР°СЃСЃРёРІ Р·Р°РїРѕР»РЅРµРЅРЅС‹Р№ СЃР»СѓС‡Р°Р№РЅС‹РјРё С‡РёСЃР»Р°РјРё..." << std::endl;
 		printMass(arr, length);
 
 		std::cout << std::endl;
-		std::cout << "сортировка...." << std::endl;
+		std::cout << "СЃРѕСЂС‚РёСЂРѕРІРєР°...." << std::endl;
 
 		quickSort(arr, length);
-		std::cout << "сортировка завершена...." << std::endl;
+		std::cout << "СЃРѕСЂС‚РёСЂРѕРІРєР° Р·Р°РІРµСЂС€РµРЅР°...." << std::endl;
 		printMass(arr, length);
 
 		std::cout << std::endl;
-		std::cout << "....готов!  выход (ноль или любая буква)...спасибо что выбрали нашу сортировку!" << std::endl;
+		std::cout << "....РіРѕС‚РѕРІ!  РІС‹С…РѕРґ (РЅРѕР»СЊ РёР»Рё Р»СЋР±Р°СЏ Р±СѓРєРІР°)...СЃРїР°СЃРёР±Рѕ С‡С‚Рѕ РІС‹Р±СЂР°Р»Рё РЅР°С€Сѓ СЃРѕСЂС‚РёСЂРѕРІРєСѓ!" << std::endl;
 		reStart();
 		std::cin >> switchSelect;
 		sortMenu(switchSelect);
@@ -167,7 +167,7 @@ void sortMenu(int switchSelect)
 void reStart() {
 
 	std::cout << std::endl;
-	std::cout << "  выберете сортировку: " << std::endl;
+	std::cout << "  РІС‹Р±РµСЂРµС‚Рµ СЃРѕСЂС‚РёСЂРѕРІРєСѓ: " << std::endl;
 	std::cout << "  ---------------------" << std::endl;
 	std::cout << "  | 1- Selection sort |" << std::endl;
 	std::cout << "  | 2- Bubble sort    |" << std::endl;
@@ -178,14 +178,14 @@ void reStart() {
 	std::cout << "  ---------------------" << std::endl;
 };
 
-//распечатка заполненного массива
+//СЂР°СЃРїРµС‡Р°С‚РєР° Р·Р°РїРѕР»РЅРµРЅРЅРѕРіРѕ РјР°СЃСЃРёРІР°
 void printMass(int arr[], int lenD)
 {
 	for (int i = 0; i < lenD; i++)
 		std::cout << arr[i] << " ";
 }
 
-/////Сортировка выбором (Selection sort)
+/////РЎРѕСЂС‚РёСЂРѕРІРєР° РІС‹Р±РѕСЂРѕРј (Selection sort)
 void selectionSort(int arr[], int lenD)
 {
 	int min = 0;
@@ -208,7 +208,7 @@ void selectionSort(int arr[], int lenD)
 	
 }
 
-//пузырьковая сортировка (bubble sort)
+//РїСѓР·С‹СЂСЊРєРѕРІР°СЏ СЃРѕСЂС‚РёСЂРѕРІРєР° (bubble sort)
 void bubbleSort(int arr[], int lenD)
 {
 	int tmp = 0;
@@ -226,7 +226,7 @@ void bubbleSort(int arr[], int lenD)
 	}
 }
 
-//Сортировка вставками(Insertion sort)
+//РЎРѕСЂС‚РёСЂРѕРІРєР° РІСЃС‚Р°РІРєР°РјРё(Insertion sort)
 void insertionSort(int arr[], int lenD)
 {
 	int key = 0;
@@ -243,7 +243,7 @@ void insertionSort(int arr[], int lenD)
 	}
 }
 
-//Сортировка слиянием(Merge sort)
+//РЎРѕСЂС‚РёСЂРѕРІРєР° СЃР»РёСЏРЅРёРµРј(Merge sort)
 void mergeSort(int arr[], int lenD)
 {
 	if (lenD > 1) {
@@ -291,7 +291,7 @@ void merge(int merged[], int lenD, int L[], int lenL, int R[], int lenR)
 	}
 }
 
-//Быстрая сортировка (Quick sort)
+//Р‘С‹СЃС‚СЂР°СЏ СЃРѕСЂС‚РёСЂРѕРІРєР° (Quick sort)
 void quickSort(int* arr, int const len)
 {
 	int const lenD = len;
